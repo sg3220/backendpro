@@ -1,6 +1,6 @@
 {
   "version": 2,
   "name": "backendpro",
-  "builds": [{ "src": "Server.js", "use": "@vercel/node" }],
+  "builds": [{ "src": "gServer.js", "use": "@vercel/node" }],
   "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
 }
